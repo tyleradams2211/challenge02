@@ -18,6 +18,11 @@ header{
     display: flex;
     justify-content: center;
 }
+.workSection h2 {
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
 .workSection article {
     text-align: left;
     margin: 5%;
