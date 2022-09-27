@@ -5,7 +5,15 @@
     --med2-color: #A79049;
     --bright-color: #EBEAE8;
 }
-body{
+.aboutmeSection{
+    margin: 10%;
+    display: flex;
+    justify-content: center;
+}
+.aboutmeSection p {
+    margin-bottom: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 header{
     display: flex;
@@ -15,13 +23,9 @@ header{
     margin: 5%;
 }
 .workSection{
+    margin: 10%;
     display: flex;
     justify-content: center;
-}
-.workSection h2 {
-    position: relative;
-    top: 20px;
-    left: 10px;
 }
 .workSection article {
     text-align: left;
@@ -29,27 +33,6 @@ header{
 }
 section article img {
     border: 1px solid red;
+    align-items: center;
 }
- /* .projectSide {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    clear: both;
-    float: left;
-    width: 15%;
-    margin-bottom: 3%;
-    margin-right: 3%;
-    margin-left: 3%;
-}
-.projectSide p {
-    text-align: center;
-}
-.projectSide img {
-    padding: 5%;
-} 
-}
-.sideSection {
-    width: 100%;
-    height: auto;
-    margin-bottom: 3%;
-}*/
+
