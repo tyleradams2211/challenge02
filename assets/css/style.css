@@ -5,10 +5,16 @@
     --med2-color: #A79049;
     --bright-color: #EBEAE8;
 }
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .aboutmeSection{
     margin: 10%;
     display: flex;
     justify-content: center;
+}
+.aboutmeSection h1{
+    width: 25%;
 }
 .aboutmeSection p {
     margin-bottom: 10%;
@@ -23,16 +29,33 @@ header{
     margin: 5%;
 }
 .workSection{
-    margin: 10%;
+    margin-bottom: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
     display: flex;
     justify-content: center;
 }
+.workSection h1{
+    width: 25%;
+}
 .workSection article {
-    text-align: left;
+    text-align: center;
+    padding: 2%;
+}
+.firstImage {
+    width: 100%;
+    height: auto;
+}
+.contactSection{
+    margin-bottom: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: left;
+}
+.contactSection h1{
+    width: 25%;
+}
+.contactSection figure {
     margin: 5%;
 }
-section article img {
-    border: 1px solid red;
-    align-items: center;
-}
-
