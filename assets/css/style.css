@@ -1,12 +1,25 @@
 :root{
-    --dark1-color: #20121B;
-    --dark2-color: #170603;
-    --med1-color: rgb(48, 45, 45);
-    --med2-color: #A79049;
-    --bright-color: #EBEAE8;
+   
 }
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Times New Roman', Times, serif
+}
+nav{
+    font-size: 1.5rem;
+} 
+nav ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+.navBorders{
+    border-right: 1px solid black;
+}
+nav ul li {
+    padding-left: 2%;
+    padding-right: 2%;
+
 }
 .aboutmeSection{
     margin: 10%;
@@ -15,18 +28,22 @@ body {
 }
 .aboutmeSection h1{
     width: 25%;
+    font-size: 1.5rem;
+    margin-right: 10%;
+    margin-top: 2%;
 }
 .aboutmeSection p {
-    margin-bottom: 10%;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin: 5%;
+    font-size: 1.2rem;
 }
 header{
     display: flex;
     justify-content: center;
-    font-size: 1.5rem;
-    width: 100%;
+    width: 40%;
     margin: 5%;
+}
+header h1 {
+    font-size: 2.25rem;
 }
 .workSection{
     margin-bottom: 10%;
@@ -34,17 +51,39 @@ header{
     margin-left: 10%;
     display: flex;
     justify-content: center;
+    border-top: 2px solid black;
 }
 .workSection h1{
     width: 25%;
+    font-size: 1.9rem;
+    margin-right: 10%;
+    margin-top: 2%;
+
 }
+/* .workSection h2 {
+    font-size: 1.5rem;
+    margin: 5%;
+    font-style: italic;
+} */
 .workSection article {
     text-align: center;
-    padding: 2%;
+    margin: 5%;
 }
 .firstImage {
     width: 100%;
     height: auto;
+}
+.contImage{
+    width: 30%;
+    height: auto;
+}
+.firstTitle{
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+    font-style: italic;
+}
+.contTitle{
+    font-size: 1.2rem;
 }
 .contactSection{
     margin-bottom: 10%;
@@ -52,10 +91,15 @@ header{
     margin-left: 10%;
     display: flex;
     justify-content: left;
+    border-top: 2px solid black;
 }
 .contactSection h1{
     width: 25%;
+    font-size: 1.5rem;
+    margin-top: 2%;
+
 }
 .contactSection figure {
+
     margin: 5%;
 }

@@ -11,24 +11,32 @@
     <header>
         <h1>Tyler's Portfolio</h1>
     </header>
+    <nav>
+        <ul>
+            <li class="navBorders"><a href="#aboutmeSection">About</li></a> 
+            <li class="navBorders">Work</li>
+            <li>Contact</li>    
+        </ul>
+    </nav>
     <!-- about me section-->
-    <section class="aboutmeSection">
+    <section class="aboutmeSection"> 
         <h1>About Me</h1>
-        <p>Hello, my name is Tyler. I am an experienced gamer and modder of games. After years of adding to and editing games as my personal hobby; I have made the decision to take it a step further and make it into a career.</p>
+        <p>Hello, my name is Tyler. I am an experienced gamer and modder of games. After years of adding to and editing games as my personal hobby- I have made the decision to take it a step further and make it into a career.</p>
     </section>
     <!-- work section-->
     <section class="workSection">
         <h1>Work</h1>
         <!-- projects are displayed as their own article-->
+        <!-- the first project is featured(firstImage) and will always be the newest addition, the previous projects will be smaller(contImage). -->
         <article class="projectBody">
-            <h2>Challenge 01</h2>
+            <h2 class="firstTitle">Challenge 01</h2>
             <a href=".\assets\projects\challenge-01\index.html"><img class="firstImage" src="./assets/images/challenge01code.png"></a>
             <p>A website that was in need of organization, descriptive semantic containers and accessibility functions.</p>
         </article>
         <article class="projectBody">
-            <h2>Place holder</h2>
-            <img src="./assets/images/bear2.png">
-            <p>This is just a copy of the first project display but this one only has 2 images. This is just a copy of the first project display but this one only has 2 images.</p>
+            <h2 class="contTitle">Place holder</h2>
+            <img class="contImage" src="./assets/images/bear2.png">
+            <!-- contImage will not have a description <p> such as the firstImage to maintain simplicity-->
         </article>
     </section> 
     <!-- contact me section-->
