@@ -24,7 +24,8 @@ nav ul li {
 
 }
 .aboutmeSection{
-    margin: 10%;
+    margin-right: 5%;
+    margin-left: 10%;
     display: flex;
     justify-content: center;
 }
@@ -57,7 +58,7 @@ header h1 {
 }
 .workSection h1{
     width: 25%;
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     margin-right: 10%;
     margin-top: 2%;
 
