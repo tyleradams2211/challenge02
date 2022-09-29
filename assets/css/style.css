@@ -25,6 +25,10 @@ nav ul li {
     padding-left: 2%;
     padding-right: 2%;
 }
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
 /* sets flex, position and margin for about me section */
 .aboutmeSection{
     margin-right: 5%;
