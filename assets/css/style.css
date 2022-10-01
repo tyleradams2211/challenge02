@@ -3,7 +3,9 @@
 }
 /* sets the font for the entire page that is in the body */
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: azure;
+    color: #42372d;
 }
 /* sets font size for the nav bar */
 nav{
